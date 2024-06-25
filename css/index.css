@@ -8,6 +8,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    height: 100vh;
 }
 
 .cabecalho .container{
@@ -20,16 +21,20 @@
     position: fixed;
     height: 10rem;
     width: 100vw;
+    background-color: white;
+    background-color: #FFFFE0;
 }
 
 .imagem-logo {
     width: 10rem;
-    height: 4rem;
+    height: 4rem;    
 }
 
 .imagem-logo img {
     width: 10rem;
     height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .nav-links {
@@ -47,4 +52,56 @@
     font-size: large;
     display: inline-block;
     padding: 0 1rem;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+
+.contact-section .container {
+    text-align: center;
+}
+.sobre-section .container{
+    display: flex;
+    padding-top: 10rem;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.logo-sobre {
+    display: inline-block;
+}
+
+.sobre-nos {
+    display: inline-block;
+    text-align: start;
+}
+
+.sobre-produtos .container{
+    display: flex;
+    padding-top: 10rem;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-produtos li div{
+    width: 200px;
+    height: 200px;
+}
+
+.botao-cadastrar {
+    border: none;
+    background-color: #ffe600;
+    padding: 0.7rem;
+    border-radius: 10px;
+    width: 15rem;
+    font-weight: bold;
 }
