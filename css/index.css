@@ -86,16 +86,32 @@
 
 .sobre-produtos .container{
     display: flex;
+    flex-direction: column;
     padding-top: 10rem;
     height: 100vh;
     align-items: center;
     justify-content: center;
 }
 
-.list-produtos li div{
+.list-produtos li{
+    list-style: none;
+}
+
+.list-produtos {
+    display: flex;
+    gap: 1rem;
+}
+
+.list-produtos li div {
     width: 200px;
     height: 200px;
 }
+
+.list-produtos li div img {
+    width: 200px;
+    height: 200px;
+}
+
 
 .botao-cadastrar {
     border: none;
