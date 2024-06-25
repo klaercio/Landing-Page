@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+}
+
+.cabecalho {
+    position: fixed;
+    height: 10rem;
+    width: 100vw;
+}
+
+.imagem-logo {
+    width: 10rem;
+    height: 4rem;
+}
+
+.imagem-logo img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.list-navbar{
+    list-style: none;
+    list-style-type: none;
+}
+
+.list-navbar li {
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+    padding: 0 1rem;
+}
